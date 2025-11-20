@@ -87,7 +87,7 @@ Formatul Orei: Modelul nu înțelege formatul "HH:MM" sau ciclicitatea (ora 23 e
 
 ### 4.1 Curățarea datelor
 
-Eliminare coloane nerelevante: Coloana Data (string) va fi eliminată după extragerea informației, păstrându-se doar continuitatea seriei temporale.
+Eliminare coloane nerelevante: Coloana Data (string) va fi eliminată după extragerea informației si pastram continuitatea cronologiei.
 
 ### 4.2 Transformarea caracteristicilor
 
