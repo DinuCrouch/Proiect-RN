@@ -5,25 +5,23 @@
 **Student:** Ionescu Dinu  
 **Data:** 04/12/25  
 
----
 
-## Scopul Etapei 4
+ Scopul Etapei 4
 
 Această etapă corespunde punctului **5. Dezvoltarea arhitecturii aplicației software bazată pe RN**.
 S-a livrat un **SCHELET COMPLET și FUNCȚIONAL** al întregului Sistem cu Inteligență Artificială (SIA). Modelul RN este definit și integrat în pipeline, asigurând fluxul complet de la generarea datelor până la output-ul vizual.
 
----
 
-## 1. Tabelul Nevoie Reală → Soluție SIA → Modul Software
+ 1. Tabelul Nevoie Reală → Soluție SIA → Modul Software
 
 | **Nevoie reală concretă** | **Cum o rezolvă SIA-ul vostru** | **Modul software responsabil** |
 |---------------------------|--------------------------------|--------------------------------|
 | **Protecția culturilor agricole** împotriva variațiilor bruște de temperatură | Predicția temperaturii pentru următoarele 24h cu o eroare medie (MSE) redusă | **Modul RN** (MLP Regressor) + **Data Acquisition** |
 | **Planificarea activităților în construcții** dependente de condiții meteo | Vizualizare grafică rapidă a tendinței temperaturii (creștere/scădere) pe baza datelor istorice | **Web Service / UI** (Generare Grafice) |
 
----
 
-## 2. Contribuția Voastră Originală la Setul de Date – MINIM 40%
+
+ 2. Contribuția Voastră Originală la Setul de Date – MINIM 40%
 
 ### Contribuția originală la setul de date:
 
@@ -50,9 +48,8 @@ Am generat întregul set de date (100% contribuție proprie) folosind scripturi 
 - Datele rezultate respectă structura fizică (temperatura scade noaptea, crește ziua).
 - Graficele din `docs/` demonstrează natura datelor.
 
----
 
-## 3. Diagrama State Machine a Întregului Sistem
+ 3. Diagrama State Machine a Întregului Sistem
 
 **Locație fișier:** `docs/state_machine.png`
 
@@ -70,7 +67,7 @@ Am generat întregul set de date (100% contribuție proprie) folosind scripturi 
                          [LOG_PREDICTION]
                                ↓
                              [IDLE]
-## Checklist Final
+ Checklist Final
 
 ### Documentatie si Structura
 - [x] Tabelul Nevoie → Solutie completat
