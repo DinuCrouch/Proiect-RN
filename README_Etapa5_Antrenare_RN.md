@@ -29,7 +29,7 @@ Această etapă corespunde punctului **6. Configurarea și antrenarea modelului 
 - [x] **Contribuție ≥40% date originale** în `data/generated/` (verificabil)
 - [x] **Modul 1 (Data Logging)** funcțional - produce CSV-uri
 - [ ] **Modul 2 (RN)** cu arhitectură definită dar NEANTRENATĂ (`models/untrained_model.h5`)
-- [ ] **Modul 3 (UI/Web Service)** funcțional cu model dummy
+- [x] **Modul 3 (UI/Web Service)** funcțional cu model dummy
 - [x] **Tabelul "Nevoie → Soluție → Modul"** complet în README Etapa 4
 
 ** Dacă oricare din punctele de mai sus lipsește → reveniți la Etapa 4 înainte de a continua.**
@@ -382,21 +382,21 @@ streamlit run src/app/main.py
 ## Checklist Final – Bifați Totul Înainte de Predare
 
 ### Prerequisite Etapa 4 (verificare)
-- [ ] State Machine există și e documentat în `docs/state_machine.*`
-- [ ] Contribuție ≥40% date originale verificabilă în `data/generated/`
-- [ ] Cele 3 module din Etapa 4 funcționale
+- [x] State Machine există și e documentat în `docs/state_machine.*`
+- [x] Contribuție ≥40% date originale verificabilă în `data/generated/`
+- [x] Cele 3 module din Etapa 4 funcționale
 
 ### Preprocesare și Date
-- [ ] Dataset combinat (vechi + nou) preprocesat (dacă ați adăugat date)
-- [ ] Split train/val/test: 70/15/15% (verificat dimensiuni fișiere)
-- [ ] Scaler din Etapa 3 folosit consistent (`config/preprocessing_params.pkl`)
+- [x] Dataset combinat (vechi + nou) preprocesat (dacă ați adăugat date)
+- [x] Split train/val/test: 70/15/15% (verificat dimensiuni fișiere)
+- [x] Scaler din Etapa 3 folosit consistent (`config/preprocessing_params.pkl`)
 
 ### Antrenare Model - Nivel 1 (OBLIGATORIU)
-- [ ] Model antrenat de la ZERO (nu fine-tuning pe model pre-antrenat)
-- [ ] Minimum 10 epoci rulate (verificabil în `results/training_history.csv`)
+- [x] Model antrenat de la ZERO (nu fine-tuning pe model pre-antrenat)
+- [x] Minimum 10 epoci rulate (verificabil în `results/training_history.csv`)
 - [ ] Tabel hiperparametri + justificări completat în acest README
 - [ ] Metrici calculate pe test set: **Accuracy ≥65%**, **F1 ≥0.60**
-- [ ] Model salvat în `models/trained_model.h5` (sau .pt, .lvmodel)
+- [x] Model salvat în `models/trained_model.h5` (sau .pt, .lvmodel)
 - [ ] `results/training_history.csv` există cu toate epoch-urile
 
 ### Integrare UI și Demonstrație - Nivel 1 (OBLIGATORIU)
@@ -481,5 +481,6 @@ Exemplu:
 3. Push: `git push origin main --tags`
 
 ---
+
 
 **Mult succes! Această etapă demonstrează că Sistemul vostru cu Inteligență Artificială (SIA) funcționează în condiții reale!**
